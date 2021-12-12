@@ -579,7 +579,7 @@ label #btn{
     
 }
 
-@media(max-width: 868px) and (min-width:568px){
+@media(max-width: 868px) and (min-width:0px){
 
     label #btn{
         display: block;
