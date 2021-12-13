@@ -579,7 +579,7 @@ label #btn{
     
 }
 
-@media(max-width: 868px) and (min-width:0px){
+@media(max-width: 868px) and (min-width:568px){
 
     label #btn{
         display: block;
@@ -622,6 +622,68 @@ label #btn{
 
     }
 
+   
+
+}
+
+@media (max-width:567px){
+
+    label #btn{
+        display: block;
+        transform: translate(1000%,-35%);
+    }
+
+    .main_content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+   
+    .main_content_img{
+        margin-top: 3rem;
+    }
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .about_project{
+        margin: 0 auto;
+    }
+
+    .project_img{
+        margin: 0 auto;
+    }
+
+    .skills{
+        font-size: 14px;
+    }
+
+    .about_content{
+        display: flex;
+        flex-direction: column;
+       
+
+    }
+
+    
+#check:checked ~ .nav-item{
+    display: block;
+    transform: translateX(-5%);
+}
+
+#check:checked ~ label #btn{
+    display: none;
+}
+#check:checked ~ label #cancel{
+    display: block;
+    transform: translate(1400%,-35%);
+    
+
+}
 }
 
 }
